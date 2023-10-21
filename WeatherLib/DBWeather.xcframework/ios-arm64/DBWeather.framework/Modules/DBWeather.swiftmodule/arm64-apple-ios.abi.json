@@ -1,0 +1,223 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DBWeather",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "DBWeather"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DBWeatherKit",
+        "printedName": "DBWeatherKit",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DBWeatherKit",
+                "printedName": "DBWeather.DBWeatherKit",
+                "usr": "s:9DBWeather0A3KitC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9DBWeather0A3KitC6sharedACvpZ",
+            "mangledName": "$s9DBWeather0A3KitC6sharedACvpZ",
+            "moduleName": "DBWeather",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DBWeatherKit",
+                    "printedName": "DBWeather.DBWeatherKit",
+                    "usr": "s:9DBWeather0A3KitC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9DBWeather0A3KitC6sharedACvgZ",
+                "mangledName": "$s9DBWeather0A3KitC6sharedACvgZ",
+                "moduleName": "DBWeather",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentWeather",
+            "printedName": "getCurrentWeather(latitude:longitude:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DBWeather0A3KitC17getCurrentWeather8latitude9longitudeypSgSd_SdtYaKF",
+            "mangledName": "$s9DBWeather0A3KitC17getCurrentWeather8latitude9longitudeypSgSd_SdtYaKF",
+            "moduleName": "DBWeather",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentWeatherForPlace",
+            "printedName": "getCurrentWeatherForPlace(placeName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9DBWeather0A3KitC25getCurrentWeatherForPlace9placeNameypSgSS_tYaKF",
+            "mangledName": "$s9DBWeather0A3KitC25getCurrentWeatherForPlace9placeNameypSgSS_tYaKF",
+            "moduleName": "DBWeather",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9DBWeather0A3KitC",
+        "mangledName": "$s9DBWeather0A3KitC",
+        "moduleName": "DBWeather",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/dhruv\/Repo\/DBWeather\/DBWeather\/WeatherKit.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 134,
+      "value": "\"https:\/\/api.openweathermap.org\/data\/2.5\/weather?lat=\""
+    },
+    {
+      "filePath": "\/Users\/dhruv\/Repo\/DBWeather\/DBWeather\/WeatherKit.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 1,
+      "value": "\"&lon=\""
+    },
+    {
+      "filePath": "\/Users\/dhruv\/Repo\/DBWeather\/DBWeather\/WeatherKit.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 1,
+      "value": "\"&appid=0da67e7b3ed801694a2586cdbc2af8e0&units=metric\""
+    },
+    {
+      "filePath": "\/Users\/dhruv\/Repo\/DBWeather\/DBWeather\/WeatherKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 753,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/dhruv\/Repo\/DBWeather\/DBWeather\/WeatherKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1053,
+      "length": 120,
+      "value": "\"https:\/\/api.openweathermap.org\/data\/2.5\/weather?q=\""
+    },
+    {
+      "filePath": "\/Users\/dhruv\/Repo\/DBWeather\/DBWeather\/WeatherKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1120,
+      "length": 1,
+      "value": "\"&appid=0da67e7b3ed801694a2586cdbc2af8e0&units=metric\""
+    },
+    {
+      "filePath": "\/Users\/dhruv\/Repo\/DBWeather\/DBWeather\/WeatherKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1409,
+      "length": 3,
+      "value": "200"
+    }
+  ]
+}

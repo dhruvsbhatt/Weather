@@ -1,0 +1,11 @@
+framework module DBWeather {
+  umbrella header "DBWeather.h"
+  export *
+
+  module * { export * }
+}
+
+module DBWeather.Swift {
+  header "DBWeather-Swift.h"
+  requires objc
+}
